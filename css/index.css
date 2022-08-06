@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #c81313;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 3px;
+  margin: 0 12px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+nav ul li a:hover {
+  color: rgb(130, 48, 139);
+}
+
+/* .logo{
+   
+    display: flex;
+    align-items: center;
+} */
+
+.logo img {
+  width: 600px;
+  height: 200px;
+}
+
+content {
+  width: 1000px;
+  height: 152px;
+  display: flex;
+  background-color: #c81313;
+  color: white;
+  padding: 0 5px 0 5px;
+}
+
+content box1 {
+  font-family: "Lato", sans-serif;
+}
+
+.btn {
+  background-color: rgba(185, 246, 217, 0.858);
+  margin: 20px 0 0 10px;
+  padding: 2px 4px 2px 4px;
+  font-weight: 4px;
+
+}
+
+.btn:hover{
+    background-color: rgb(71, 53, 53);
+}
+
+content box2 {
+  font-family: "Lato", sans-serif;
+}
+
+content box3 {
+  font-family: "Lato", sans-serif;
+}
+
+
+.left h1{
+    text-align: center;
+}
+.left{
+    
+    width: 50vw;
+    height: 30vh;
+    float: left;
+
+    
+}
+.right{
+    background-color: blanchedalmond;
+    float: right;
+    display: flex;
+    width: 48vw;
+    height: 35.2vh;
+    border: 2px solid rgb(19, 13, 13);
+}
+
+
+
+.right img{
+    width: 150px;
+    height: 75px;
+}
+
+
+footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
